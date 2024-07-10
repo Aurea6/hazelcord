@@ -28,3 +28,4 @@ jobs:
         cache: 'npm'
     - run: npm i
     - run: node .
+    - run: node --trace -warning
